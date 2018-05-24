@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e4e4e4"
+    android:layout_height="match_parent"
+    tools:context="com.work.unknown.absence.Login">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_marginTop="25dp"
+    android:text="Haderney"
+    android:textSize="50dp"
+    />
+
+
+    <EditText
+        android:id="@+id/LoginuserName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:maxLines="1"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/userorpassback"
+        android:drawableLeft="@drawable/en"
+        android:paddingLeft="10dp"
+        android:hint="Username"
+        android:drawablePadding="40dp"
+        />
+    <EditText
+        android:id="@+id/Loginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:maxLines="1"
+        android:layout_below="@+id/LoginuserName"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/userorpassback"
+        android:drawableLeft="@drawable/lock"
+        android:paddingLeft="10dp"
+        android:hint="password"
+        android:drawablePadding="40dp"
+        />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:background="@drawable/logininter"
+    android:layout_below="@+id/Loginpassword"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:onClick="Loginprocess"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/ic_share_black_24dp"
+        app:backgroundTint="@color/ballrelaseColor"
+        android:layout_alignParentBottom="false"
+        android:layout_alignEnd="@+id/Loginpassword" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardElevation="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="2nd Olympics of computers and Information Sciences,Mansoura University,2018"
+            android:textColor="#000"
+            android:textSize="15sp"
+
+            />
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

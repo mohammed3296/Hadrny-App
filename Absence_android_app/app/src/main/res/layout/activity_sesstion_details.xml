@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.work.unknown.absence.Student.sesstionDetails">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:id="@+id/sd"
+       android:layout_marginTop="30dp"
+       android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Sesstion Name:"
+        android:id="@+id/hole"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+        />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/hole_name"
+           android:layout_toRightOf="@+id/hole"
+           android:layout_marginRight="20dp"
+           android:textSize="20dp"
+           android:text="Data Science"
+           />
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sd"
+        android:id="@+id/asd"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Sesstion start Time :"
+            android:id="@+id/time"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sess_time"
+            android:layout_toRightOf="@+id/time"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:text="11 Am"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/asd"
+        android:id="@+id/asdd"
+
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Sesstion Allowed Time :"
+            android:id="@+id/allowedtime"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/allowed_time"
+            android:layout_toRightOf="@+id/allowedtime"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:text="30M"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/asdd"
+        android:id="@+id/asdddd"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Sesstion Place :"
+            android:id="@+id/se_place"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sesstion_place"
+            android:layout_toRightOf="@+id/se_place"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:text=" 4 A"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/asdddd"
+        android:id="@+id/er"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Sesstion End Time :"
+            android:id="@+id/se_end"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sesstion_endtime"
+            android:layout_toRightOf="@+id/se_end"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:text="13 Pm"
+
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Attend"
+        android:background="@drawable/logininter"
+        android:layout_below="@+id/er"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="attend"
+        tools:ignore="OnClick" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardElevation="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="2nd Olympics of computers and Information Sciences,Mansoura University,2018"
+            android:textColor="#000"
+            android:textSize="15sp"
+
+            />
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

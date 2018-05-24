@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_margin="15dp"
+    android:padding="5dp"
+    android:background="#D3D6DB"
+    android:id="@+id/card"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sesstion_n"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:text="SesstionName:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sesstion_name"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="SesstionName"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sesstion_d"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+          android:layout_below="@+id/sesstion_n"
+        android:text="SesstionDate:"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sesstion_Date"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sesstion_name"
+        android:text="SesstionDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sesstion_p"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sesstion_d"
+        android:text="SesstionDate:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:id="@+id/sesstion_place"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sesstion_Date"
+        android:text="SesstionDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>
+
